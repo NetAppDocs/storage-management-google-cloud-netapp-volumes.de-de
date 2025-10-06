@@ -32,9 +32,9 @@ NetApp Volumes hilft Ihnen, die Bereitstellungszeiten zu verkürzen, Ihre Worklo
 
 == Kosten
 
-Die Kosten für von Google Cloud NetApp Volumes erstellte Volumes werden Ihrem Abonnement des Dienstes und nicht der NetApp Konsole in Rechnung gestellt.
+Von Google Cloud NetApp Volumes erstellte Volumes werden Ihrem Abonnement des Dienstes und nicht der NetApp Console in Rechnung gestellt.
 
-Für die Erkennung einer Google Cloud NetApp Volumes Region oder eines Volumes über die NetApp Konsole fallen keine Gebühren an.
+Für die Erkennung einer Google Cloud NetApp Volumes Region oder eines Volumes über die NetApp Console fallen keine Gebühren an.
 
 
 
@@ -57,5 +57,5 @@ Bei technischen Problemen im Zusammenhang mit Ihren Cloud-Volumes können Sie ü
 == Weiterführende Links
 
 * https://cloud.google.com/netapp/volumes/docs/discover/overview["Google Cloud NetApp Volumes Dokumentation"^]
-* https://docs.netapp.com/us-en/data-services-copy-sync/index.html["Dokumentation zum Kopieren und Synchronisieren der NetApp -Konsole"^]
+* https://docs.netapp.com/us-en/data-services-copy-sync/index.html["Dokumentation zum Kopieren und Synchronisieren der NetApp Console"^]
 
