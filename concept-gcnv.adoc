@@ -1,0 +1,61 @@
+---
+sidebar: sidebar 
+permalink: concept-gcnv.html 
+keywords: google cloud netapp volumes, cost, price, features, google cloud netapp volumes features, gcnv, supported regions, google regions, google cloud netapp volumes regions 
+summary: Google Cloud NetApp Volumes ermöglicht Unternehmen die Migration und Ausführung ihrer leistungsintensiven und latenzempfindlichen geschäftskritischen Kernanwendungen in Google, ohne dass eine Umgestaltung für die Cloud erforderlich ist. 
+---
+= Erfahren Sie mehr über Google Cloud NetApp Volumes
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Google Cloud NetApp Volumes ist ein vollständig verwalteter, Cloud-basierter Datenspeicherdienst, der erweiterte Datenverwaltungsfunktionen und hochgradig skalierbare Leistung bietet.
+
+NetApp Volumes hilft Ihnen, die Bereitstellungszeiten zu verkürzen, Ihre Workloads und Anwendungen zu verwalten und Workloads in die Cloud zu migrieren, während die Leistung und Funktionen des lokalen Speichers erhalten bleiben.
+
+
+
+== Features
+
+* Führt Unternehmensanwendungen schneller und effizienter aus.
+* Reduziert die Kosten für Cloud-Speicher um bis zu 90 %.
+* Erfüllt die Anforderungen an Betriebszeit, Verfügbarkeit und Sicherheit.
+* Unterstützt NFS-, SMB- und Multiprotokollumgebungen.
+
+
+
+
+== Kosten
+
+Die Kosten für von Google Cloud NetApp Volumes erstellte Volumes werden Ihrem Abonnement des Dienstes und nicht der NetApp Konsole in Rechnung gestellt.
+
+Für die Erkennung einer Google Cloud NetApp Volumes Region oder eines Volumes über die NetApp Konsole fallen keine Gebühren an.
+
+
+
+== Unterstützte Regionen
+
+https://cloud.google.com/netapp/volumes/docs/discover/service-levels#supported_regions["Unterstützte Google Cloud NetApp Volumes Regionen anzeigen"^]
+
+
+
+== Hilfe bekommen
+
+Um technischen Support zu erhalten, protokollieren Sie eine Anfrage über das Google Cloud-Portal.  Wählen Sie Ihr Google Cloud-Abonnement und unter *Speicher* den Dienst * Google Cloud NetApp Volumes*.  Vervollständigen Sie die erforderlichen Informationen.
+
+Wenn Sie allgemeine Fragen zu Google Cloud NetApp Volumes haben, senden Sie eine E-Mail an das Google Cloud-Team von NetApp unter gcinfo@netapp.com.
+
+Bei technischen Problemen im Zusammenhang mit Ihren Cloud-Volumes können Sie über die Google Cloud Console einen technischen Supportfall erstellen. Sehenlink:https://cloud.google.com/netapp/volumes/docs/support["Unterstützung erhalten"^] für Details.
+
+
+
+== Weiterführende Links
+
+* https://cloud.google.com/netapp/volumes/docs/discover/overview["Google Cloud NetApp Volumes Dokumentation"^]
+* https://docs.netapp.com/us-en/data-services-copy-sync/index.html["Dokumentation zum Kopieren und Synchronisieren der NetApp -Konsole"^]
+

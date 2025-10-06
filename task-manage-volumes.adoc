@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task-manage-volumes.html 
+keywords: google cloud netapp volumes, view volumes 
+summary: Nachdem Sie Ihr System eingerichtet haben, können Sie Ihre Google Cloud NetApp -Volumes anzeigen. 
+---
+= Vorhandene Volumes verwalten
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sie können Ihre vorhandenen Volumes und alle Aktionen anzeigen, die Sie darauf ausgeführt haben.
+
+*Erforderliche NetApp Konsolenrolle* Organisationsadministrator, Ordner- oder Projektadministrator oder Google Cloud NetApp Volumes -Administratorrolle. https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über die Zugriffsrollen der NetApp -Konsole für alle Dienste"^] .
+
+
+
+== Anzeigen eines Volumes
+
+Zeigen Sie die Details Ihrer Volumes an, z. B. Name, Anzahl, Region, Kapazität, genutzte Kapazität und Speicherpool.
+
+.Schritte
+. Klicken Sie auf *System aufrufen*, um das System zu öffnen.
+. Um ein bestimmtes Volumen in der Tabelle anzuzeigen, wählen Sieimage:icon_search.png["Ein Symbol mit drei Punkten."] und geben Sie den Datenträgernamen ein.
+. Um alle mit einem Datenträger verknüpften Beschriftungen anzuzeigen, wählen Sie in der Spalte *Beschriftungen* die Option *Anzeigen* aus.
+
+
+
+
+== Anzeigen des Überwachungsprotokolls
+
+Sie können alle an den Volumes durchgeführten Aktionen in der Zeitleiste anzeigen.
+
+.Schritte
+. Wählen Sie oben rechts *Einstellungen* und dann *Timeline*.
+
+
+.Ergebnis
+In der Tabelle *Audit-Protokolle* können Sie alle auf Ihren Volumes ausgeführten Aktionen anzeigen.

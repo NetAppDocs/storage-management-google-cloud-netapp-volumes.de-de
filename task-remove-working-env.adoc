@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: task-remove-working-env.html 
+keywords: remove working environment, delete working environment, remove system, delete system, remove google cloud netapp volumes, remove, delete 
+summary: Sie können ein Google Cloud NetApp Volumes für Google Cloud-Abonnement und alle vorhandenen Volumes aus der NetApp Konsole entfernen.  Diese Aktion entfernt Google Cloud NetApp Volumes aus der NetApp Konsole.  Ihr Google Cloud NetApp Volumes Konto oder Ihre Volumes werden dadurch nicht gelöscht.  Sie können Google Cloud NetApp Volumes jederzeit wieder zur NetApp Konsole hinzufügen. 
+---
+= Google Cloud NetApp Volumes aus der NetApp Konsole entfernen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sie können ein Google Cloud NetApp Volumes -Abonnement und alle vorhandenen Volumes aus der NetApp Konsole entfernen.  Die Volumes werden nicht gelöscht, sondern aus allen Projekten innerhalb der NetApp Konsole entfernt und können später wiedergefunden werden.
+
+
+TIP: Sie können Google Cloud NetApp Volumes nicht aus der NetApp Konsole löschen.  Führen Sie diese Aktion mithilfe der Google Cloud Console aus.
+
+.Schritte
+. Öffnen Sie das System.
+. Klicken Sie auf dasimage:screenshot_gallery_options.gif["Ein Symbol mit drei Punkten."] Klicken Sie oben auf der Seite auf die Schaltfläche „Entfernen“ und dann auf „Entfernen“.
+
