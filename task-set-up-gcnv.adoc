@@ -16,18 +16,18 @@ summary: Die NetApp Console benötigt Zugriff auf die Google Cloud NetApp Volume
 [role="lead"]
 Die NetApp Console benötigt die richtigen Berechtigungen über ein Google Cloud-Dienstkonto.
 
-
-
-== Einrichten eines Dienstkontos
-
-Führen Sie die folgenden Aufgaben aus, damit die NetApp Console auf Ihr Google Cloud-Projekt zugreifen kann:
+Führen Sie die folgenden Aufgaben aus, damit die NetApp Console auf Ihr Google Cloud-Projekt zugreifen kann.
 
 * Wenn Sie noch kein bestehendes Servicekonto haben, erstellen Sie ein neues.
 * Fügen Sie das Dienstkontomitglied zu Ihrem Projekt hinzu und weisen Sie ihm bestimmte Rollen (Berechtigungen) zu.
 * Erstellen und laden Sie ein Schlüsselpaar für das Dienstkonto herunter, das zur Authentifizierung bei Google verwendet wird.
+* Gewähren Sie die IAM-Rolle im freigegebenen Projekt.
 
 
-.Schritte
+
+
+== Einrichten eines Dienstkontos
+
 . In der Google Cloud-Konsole https://console.cloud.google.com/iam-admin/serviceaccounts["Gehen Sie zur Seite „Dienstkonten“"^] .
 . Klicken Sie auf *Projekt auswählen*, wählen Sie Ihr Projekt aus und klicken Sie auf *Öffnen*.
 . (Optional) Gehen Sie wie folgt vor, um ein Dienstkonto zu erstellen:
@@ -40,7 +40,27 @@ Die Google Cloud Console generiert basierend auf diesem Namen eine Dienstkonto-I
 .. Um jetzt Zugriffskontrollen festzulegen, klicken Sie unten auf der Seite auf *Erstellen* und dann auf *FERTIG* und fahren Sie mit dem nächsten Schritt fort.
 
 
-. Klicken Sie auf der _IAM-Seite_ auf *Hinzufügen* und füllen Sie die Felder auf der Seite _Mitglieder hinzufügen_ aus:
+
+
+
+
+== Erstellen und Herunterladen eines Schlüsselpaars
+
+. Im https://console.cloud.google.com/iam-admin/serviceaccounts["Seite „Dienstkonten“"^] , suchen Sie den Namen des Dienstkontos und klicken Sie darauf.
+. Klicken Sie auf der Seite „Servicekontodetails“ auf *Schlüssel hinzufügen* und dann auf *Neuen Schlüssel erstellen*.
+. Wählen Sie *JSON* als Schlüsseltyp und klicken Sie auf *Erstellen*.
++
+Durch Klicken auf *Erstellen* wird Ihr neues öffentliches/privates Schlüsselpaar generiert und auf Ihr System heruntergeladen.  Es dient als einzige Kopie des privaten Schlüssels.  Bewahren Sie diese Datei sicher auf, da sie zur Authentifizierung als Ihr Dienstkonto verwendet werden kann.
+
+
+
+
+
+== Fügen Sie das Dienstkontomitglied hinzu
+
+. Melden Sie sich an im https://docs.netapp.com/us-en/console-setup-admin/task-logging-in.html["NetApp Console"] .
+. Wählen Sie *Administration* und dann *Identität und Zugriff*.
+. Klicken Sie auf *Hinzufügen* und füllen Sie die Felder auf der Seite _Mitglieder hinzufügen_ aus:
 +
 .. Geben Sie im Feld „Neue Mitglieder“ die vollständige Service-Konto-ID ein.
 +
@@ -55,11 +75,19 @@ Beispiel: \user1-service-account-gcnv@project1.iam.gserviceaccount.com
 .. Klicken Sie auf *Speichern*.
 
 
-. Klicken Sie auf den Namen des Dienstkontos und dann auf der Seite „Dienstkontodetails“ auf *Schlüssel hinzufügen* und dann auf *Neuen Schlüssel erstellen*.
-. Wählen Sie *JSON* als Schlüsseltyp und klicken Sie auf *Erstellen*.
-+
-Durch Klicken auf *Erstellen* wird Ihr neues öffentliches/privates Schlüsselpaar generiert und auf Ihr System heruntergeladen.  Es dient als einzige Kopie des privaten Schlüssels.  Bewahren Sie diese Datei sicher auf, da sie zur Authentifizierung als Ihr Dienstkonto verwendet werden kann.
 
+
+
+
+== Gemeinsam genutzte VPC
+
+Gehen Sie in jedem weiteren GCP-Projekt, das das Dienstkonto verwendet, wie folgt vor:
+
+. Wählen Sie auf der _IAM-Seite_ das Shared VPC-Hostprojekt aus dem Projekt-Dropdown-Menü aus.
+. Klicken Sie auf *Hauptbenutzer hinzufügen*.
+. Geben Sie im Feld „Neue Auftraggeber“ die E-Mail-Adresse Ihres Dienstkontos ein.
+. Wählen Sie aus der Dropdown-Liste „Rolle auswählen“ die Administratorrolle „Google Cloud NetApp Volumes“ aus.
+. Klicken Sie auf *Speichern*.
 
 
 Ausführliche Schritte finden Sie in der Google Cloud-Dokumentation:

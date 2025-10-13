@@ -19,6 +19,9 @@ Google Cloud NetApp Volumes ist ein vollständig verwalteter, Cloud-basierter Da
 NetApp Volumes hilft Ihnen, die Bereitstellungszeiten zu verkürzen, Ihre Workloads und Anwendungen zu verwalten und Workloads in die Cloud zu migrieren, während die Leistung und Funktionen des lokalen Speichers erhalten bleiben.
 
 
+NOTE: Um mit der Arbeit mit Google Cloud NetApp Volumes beginnen zu können, müssen Ihnen die entsprechenden Berechtigungen und Rollen zugewiesen sein.  Die erforderlichen NetApp Console sind Organisationsadministrator, Ordner- oder Projektadministrator oder die Administratorrolle für Google Cloud NetApp Volumes . https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über die Zugriffsrollen der NetApp Console für alle Dienste"^] .
+
+
 
 == Features
 
