@@ -40,9 +40,6 @@ Beim Hinzufügen eines Abonnements für jedes Projekt müssen Sie über die folg
 .. Wählen Sie den Namen Ihres Google Cloud-Projekts aus.
 .. Wählen Sie die Region aus, in der Sie das System erstellen möchten.  Die Region muss eine der unterstützten Regionen für Google Cloud NetApp Volumes sein.
 .. Wählen Sie *Entdecken*.
-+
-image:screenshot_create_environment.png["Ein Screenshot des Hinzufügens von Anmeldeinformationen für ein Google Cloud NetApp Volumes -Abonnement."]
-
 
 
 
