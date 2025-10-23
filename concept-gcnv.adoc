@@ -21,7 +21,7 @@ NetApp Volumes hilft Ihnen, die Bereitstellungszeiten zu verkürzen, Ihre Worklo
 
 NOTE: Um mit der Arbeit mit Google Cloud NetApp Volumes beginnen zu können, müssen Sie über die entsprechenden Berechtigungen verfügen und die Rolle „Google Cloud NetApp Volumes Administrator“ oder „Google Cloud NetApp Viewer“ zugewiesen sein. https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über die Zugriffsrollen der NetApp Console für alle Dienste"^].
 
-+ image:role_gcnv.png["Ein Screenshot der Google Cloud NetApp Volumes -Rolle."]
+image:role_gcnv.png["Ein Screenshot der Google Cloud NetApp Volumes -Rolle."]
 
 
 
