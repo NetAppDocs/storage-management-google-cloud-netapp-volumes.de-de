@@ -24,7 +24,7 @@ NOTE: Wenn Sie Abonnements und Volumes in mehreren Google Cloud-Projekten haben,
 .Bevor Sie beginnen
 Beim Hinzufügen eines Abonnements für jedes Projekt müssen Sie über die folgenden Informationen verfügen:
 
-* Anmeldeinformationen für das Dienstkonto (von Ihnen heruntergeladener privater JSON-Schlüssel)
+* E-Mail-Adresse des Google-Dienstkontos
 * Projektname
 
 
@@ -35,10 +35,10 @@ Beim Hinzufügen eines Abonnements für jedes Projekt müssen Sie über die folg
 . Geben Sie Informationen zu Ihrem NetApp Volumes-Abonnement an:
 +
 .. Geben Sie den Systemnamen ein, den Sie verwenden möchten.
-.. Kopieren/Einfügen des privaten JSON-Schlüssels, den Sie in den vorherigen Schritten heruntergeladen haben.
-.. Wählen Sie *Anmeldeinformationen anwenden*.
-.. Wählen Sie den Namen Ihres Google Cloud-Projekts aus.
-.. Wählen Sie die Region aus, in der Sie das System erstellen möchten.  Die Region muss eine der unterstützten Regionen für Google Cloud NetApp Volumes sein.
+.. Fügen Sie die zugehörige E-Mail-Adresse des Google-Dienstkontos ein: credentials-sa@wf-production-netapp.iam.gserviceaccount.com.
+.. Wählen Sie *Anmeldeinformationen anwenden*, um den Projektnamen und die Region abzurufen.
+.. Wählen Sie unter *Projektname* den Namen Ihres Google Cloud-Projekts aus.
+.. Wählen Sie unter *Region* die Region aus, in der Sie das System erstellen möchten. Die Region muss eine der unterstützten Regionen für Google Cloud NetApp Volumes sein.
 .. Wählen Sie *Entdecken*.
 
 

@@ -16,7 +16,7 @@ summary: Nachdem Sie Ihr System eingerichtet haben, können Sie Ihre Google Clou
 [role="lead"]
 Sie können Ihre vorhandenen Volumes und alle Aktionen anzeigen, die Sie darauf ausgeführt haben.
 
-*Erforderliche NetApp Console * Organisationsadministrator, Ordner- oder Projektadministrator oder Google Cloud NetApp Volumes -Administratorrolle. https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über die Zugriffsrollen der NetApp Console für alle Dienste"^] .
+*Erforderliche NetApp Console -Rolle* Google Cloud NetApp Volumes Administrator- oder Google Cloud NetApp Volumes Betrachterrolle. https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Erfahren Sie mehr über die Zugriffsrollen der NetApp Console für alle Dienste"^] Die
 
 
 
