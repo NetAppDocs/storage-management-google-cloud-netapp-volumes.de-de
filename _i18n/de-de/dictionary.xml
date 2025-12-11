@@ -320,7 +320,6 @@
   <block id="a09853f10b1e18c9e2f541f7e1763305" category="list-text">Wählen Sie *Neue Rollen hinzufügen*.</block>
   <block id="24a2cf89a7e8654a8dd82b3e847a2f3f" category="paragraph"><block ref="353eff4e723ce60125e1af61cf4ff726" category="inline-link-macro-rx"></block>.</block>
   <block id="ab1dab4c743d79632ef6d8713763e8d2" category="list-text">E-Mail-Adresse des Google-Dienstkontos</block>
-  <block id="d584bbe3e0a94b8fa857891d1712d7ab" category="list-text">Fügen Sie die zugehörige E-Mail-Adresse des Google-Dienstkontos ein: credentials-sa@wf-production-netapp.iam.gserviceaccount.com.</block>
   <block id="53b4170efa88b9e39c22f67a2c5c13da" category="list-text">Wählen Sie *Anmeldeinformationen anwenden*, um den Projektnamen und die Region abzurufen.</block>
   <block id="7de846f0f4d481f8d5514f7cd985147d" category="list-text">Wählen Sie unter *Projektname* den Namen Ihres Google Cloud-Projekts aus.</block>
   <block id="035a4567c3372192964d63db5f9bdd6e" category="list-text">Wählen Sie unter *Region* die Region aus, in der Sie das System erstellen möchten. Die Region muss eine der unterstützten Regionen für Google Cloud NetApp Volumes sein.</block>
@@ -347,4 +346,6 @@
   <block id="8a5b2584efd2f1954d10a5072e5491dd" category="paragraph"><block ref="61e83af22a007916f84f7c17f5833a9d" category="inline-link-macro-rx"></block>.</block>
   <block id="815e75619b370a1b845eccec6979ed74" category="section-title">27. November 2025</block>
   <block id="8372655369d67acc7142b2e8d34f9af7" category="sidebar">Volumes entfernen</block>
+  <block id="5b20dcb4d6ead9fcf4ad79a3f32c603e" category="list-text">Fügen Sie die zugehörige E-Mail-Adresse des Google-Dienstkontos ein. Weitere Einzelheiten finden Sie unter<block ref="2a10bb8ea1c6c9896523c5c7efdb9ddd" category="inline-link-macro-rx"></block> .</block>
+  <block id="063d962f8b06a3e8ff542497811b0109" category="paragraph">Das von NetApp betriebene Dienstkonto dient dazu, ein kurzlebiges Zugriffstoken anzufordern, mit dem Sie als dieses Dienstkonto agieren können, ohne Zugriff auf dessen privaten Schlüssel zu benötigen.</block>
 </blocks>

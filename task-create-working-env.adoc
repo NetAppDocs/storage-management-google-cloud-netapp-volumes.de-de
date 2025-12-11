@@ -35,7 +35,7 @@ Beim Hinzufügen eines Abonnements für jedes Projekt müssen Sie über die folg
 . Geben Sie Informationen zu Ihrem NetApp Volumes-Abonnement an:
 +
 .. Geben Sie den Systemnamen ein, den Sie verwenden möchten.
-.. Fügen Sie die zugehörige E-Mail-Adresse des Google-Dienstkontos ein: credentials-sa@wf-production-netapp.iam.gserviceaccount.com.
+.. Fügen Sie die zugehörige E-Mail-Adresse des Google-Dienstkontos ein. Weitere Einzelheiten finden Sie unterlink:task-set-up-gcnv.html["Einrichten eines Dienstkontos"] .
 .. Wählen Sie *Anmeldeinformationen anwenden*, um den Projektnamen und die Region abzurufen.
 .. Wählen Sie unter *Projektname* den Namen Ihres Google Cloud-Projekts aus.
 .. Wählen Sie unter *Region* die Region aus, in der Sie das System erstellen möchten. Die Region muss eine der unterstützten Regionen für Google Cloud NetApp Volumes sein.
