@@ -1,0 +1,51 @@
+---
+permalink: task-create-working-env.html 
+redirect: storage-management-google-cloud-netapp-volumes/task-create-system.html 
+---
+= Fügen Sie ein Google Cloud NetApp Volumes System hinzu
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Nachdem Sie ein Dienstkonto eingerichtet haben, fügen Sie in der NetApp Console ein Google Cloud NetApp Volumes -System hinzu, damit Sie Ihre Google Cloud NetApp Volumes Instanzen anzeigen können.
+
+Cloud-Volumes für dieses Abonnement werden im System angezeigt.
+
+
+NOTE: Wenn Sie Abonnements und Volumes in mehreren Google Cloud-Projekten haben, müssen Sie diese Aufgabe für jedes Projekt ausführen.
+
+.Bevor Sie beginnen
+Beim Hinzufügen eines Abonnements für jedes Projekt müssen Sie über die folgenden Informationen verfügen:
+
+* E-Mail-Adresse des Google-Dienstkontos
+* Projektname
+
+
+.Schritte
+. Wählen Sie im NetApp Console *Storage* und dann *Management* aus.
+. Wählen Sie auf der Seite „Systeme“ *System hinzufügen* und dann *Google Cloud Platform*.
+. Wählen Sie neben * Google Cloud NetApp Volumes* die Option *Discover* aus.
+. Geben Sie Informationen zu Ihrem NetApp Volumes-Abonnement an:
++
+.. Geben Sie den Systemnamen ein, den Sie verwenden möchten.
+.. Fügen Sie die zugehörige E-Mail-Adresse des Google-Dienstkontos ein. Weitere Einzelheiten finden Sie unterlink:task-set-up-gcnv.html["Einrichten eines Dienstkontos"] .
+.. Wählen Sie *Anmeldeinformationen anwenden*, um den Projektnamen und die Region abzurufen.
+.. Wählen Sie unter *Projektname* den Namen Ihres Google Cloud-Projekts aus.
+.. Wählen Sie unter *Region* die Region aus, in der Sie das System erstellen möchten. Die Region muss eine der unterstützten Regionen für Google Cloud NetApp Volumes sein.
+.. Wählen Sie *Entdecken*.
+
+
+
+
+.Ergebnis
+Die Konsole zeigt Ihr Google Cloud NetApp Volumes -System an.
+
+image:screenshot_gcnv_environment.png["Ein Screenshot des Google Cloud NetApp Volumes Service-Systems."]
+
+.Wie geht es weiter?
+link:task-manage-volumes.html["Anzeigen Ihrer Volumes"] .
