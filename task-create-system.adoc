@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-create-system.html 
-keywords: google cloud netapp volumes, google cloud, netapp cloud volumes, create netapp cloud volumes, discover netapp cloud volumes service for gcnv, cloud volumes service subscription, discover cloud volumes service subscription, discover region, allowed clients, netapp console 
+keywords: google cloud netapp volumes, google cloud, netapp cloud volumes, create netapp cloud volumes, discover netapp cloud volumes service for gcnv, cloud volumes service subscription, discover cloud volumes service subscription, discover region, allowed clients, netapp console, gcnv 
 summary: Fügen Sie in der NetApp Console ein Netapp Volumes für das Google Cloud-System hinzu, um Volumes anzuzeigen und zu verwalten. 
 ---
 = Fügen Sie ein Google Cloud NetApp Volumes System hinzu
