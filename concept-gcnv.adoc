@@ -25,6 +25,7 @@ image:role_gcnv.png["Ein Screenshot der Google Cloud NetApp Volumes -Rolle."]
 
 
 
+[[features]]
 == Features
 
 * Führt Unternehmensanwendungen schneller und effizienter aus.
@@ -35,6 +36,7 @@ image:role_gcnv.png["Ein Screenshot der Google Cloud NetApp Volumes -Rolle."]
 
 
 
+[[cost]]
 == Kosten
 
 Von Google Cloud NetApp Volumes erstellte Volumes werden Ihrem Abonnement des Dienstes und nicht der NetApp Console in Rechnung gestellt.
@@ -43,12 +45,14 @@ Für die Erkennung einer Google Cloud NetApp Volumes Region oder eines Volumes �
 
 
 
+[[supported-regions]]
 == Unterstützte Regionen
 
 https://cloud.google.com/netapp/volumes/docs/discover/service-levels#supported_regions["Unterstützte Google Cloud NetApp Volumes Regionen anzeigen"^]
 
 
 
+[[getting-help]]
 == Hilfe bekommen
 
 Um technischen Support zu erhalten, protokollieren Sie eine Anfrage über das Google Cloud-Portal.  Wählen Sie Ihr Google Cloud-Abonnement und unter *Speicher* den Dienst * Google Cloud NetApp Volumes*.  Vervollständigen Sie die erforderlichen Informationen.
@@ -59,6 +63,7 @@ Bei technischen Problemen im Zusammenhang mit Ihren Cloud-Volumes können Sie ü
 
 
 
+[[related-links]]
 == Weiterführende Links
 
 * https://cloud.google.com/netapp/volumes/docs/discover/overview["Google Cloud NetApp Volumes Dokumentation"^]

@@ -20,6 +20,7 @@ Sie können Ihre vorhandenen Volumes und alle Aktionen anzeigen, die Sie darauf 
 
 
 
+[[view-a-volume]]
 == Anzeigen eines Volumes
 
 Zeigen Sie die Details Ihrer Volumes an, z. B. Name, Anzahl, Region, Kapazität, genutzte Kapazität und Speicherpool.
@@ -32,6 +33,7 @@ Zeigen Sie die Details Ihrer Volumes an, z. B. Name, Anzahl, Region, Kapazität
 
 
 
+[[view-the-audit-log]]
 == Anzeigen des Überwachungsprotokolls
 
 Sie können alle an den Volumes durchgeführten Aktionen in der Zeitleiste anzeigen.

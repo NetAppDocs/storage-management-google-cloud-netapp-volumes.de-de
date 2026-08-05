@@ -4,6 +4,7 @@
 
 
 
+[[google-cloud-platform-credentials-changes]]
 === Änderungen der Anmeldeinformationen für die Google Cloud Platform
 
 Da Kunden immer mehr Google Cloud NetApp Volumes Systeme einrichten und autorisieren, hat sich die Verwaltung der Zugangsdaten verändert.
